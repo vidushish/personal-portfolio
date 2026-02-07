@@ -35,8 +35,7 @@ import {
 } from "react-icons/si";
 
 export const resumeLink =
-	"https://acrobat.adobe.com/id/urn:aaid:sc:AP:4f302406-21b9-4b6e-8031-11939ccf4360";
-export const repoLink = "";
+	"https://acrobat.adobe.com/id/urn:aaid:sc:ap:c0b0253f-4624-4a92-9f90-b651e854af2b";
 
 export const callToAction = "https://www.linkedin.com/in/vidushi-sharma12/";
 
@@ -214,23 +213,34 @@ export const skills = [
 export const projects = [
   {
     id: "project-1",
+    title: "DSA Visualiser",
+    github: "https://github.com/vidushish/DSA_Visualizer",
+    content:
+      "A desktop-based algorithm visualization tool built using C++ and Qt. It visually demonstrates sorting algorithms, backtracking problems, and tree data structures through step-by-step animations to simplify core DSA concepts.",
+    stack: [
+      { id: "dsa-1", icon: SiCplusplus, name: "C++" },
+      { id: "dsa-2", icon: SiGit, name: "Qt Framework" },
+      { id: "dsa-3", icon: SiGit, name: "CMake" },
+    ],
+  },
+
+  {
+    id: "project-2",
     title: "TrackWise",
-    github: "https://github.com/vidushish/TrackWise", // update if different
+    github: "https://github.com/vidushish/TrackWise",
     link: "https://trackwise-hub.netlify.app",
     content:
-      "A full-stack task & habit tracking web app with analytics dashboards. Enables users to manage daily tasks, build habits, visualize streaks, and track productivity using interactive charts.",
+      "A full-stack task & habit tracking web app with analytics dashboards and JWT-based authentication.",
     stack: [
       { id: "tw-1", icon: SiReact, name: "React.js" },
       { id: "tw-2", icon: SiNodedotjs, name: "Node.js" },
       { id: "tw-3", icon: SiExpress, name: "Express.js" },
       { id: "tw-4", icon: SiMongodb, name: "MongoDB" },
       { id: "tw-5", icon: SiTailwindcss, name: "Tailwind CSS" },
-      { id: "tw-6", icon: SiJavascript, name: "JWT Auth" },
     ],
   },
-
   {
-    id: "project-2",
+    id: "project-3",
     title: "Luxcape",
     github: "https://github.com/vidushish/Luxcape",
     link: "https://luxcape.onrender.com/listings",
@@ -247,7 +257,7 @@ export const projects = [
   },
 
   {
-    id: "project-3",
+    id: "project-4",
     title: "BattleOfBits",
     github: "https://github.com/vidushish/BattleOfBits",
     content:
@@ -262,7 +272,7 @@ export const projects = [
   },
 
   {
-    id: "project-4",
+    id: "project-5",
     title: "Spotify Clone",
     github: "https://github.com/vidushish/Spotify-Clone",
     content:
@@ -274,7 +284,7 @@ export const projects = [
   },
 
   {
-    id: "project-5",
+    id: "project-6",
     title: "Weather App",
     github: "https://github.com/vidushish/Weather-App",
     content:
@@ -287,7 +297,7 @@ export const projects = [
   },
 
   {
-    id: "project-6",
+    id: "project-7",
     title: "QR Code Generator",
     github: "https://github.com/vidushish/QR-Code-Generator",
     content:
@@ -299,7 +309,7 @@ export const projects = [
   },
 
   {
-    id: "project-7",
+    id: "project-8",
     title: "Simon Game",
     github: "https://github.com/vidushish/The-Simon-Game",
     content:
@@ -312,7 +322,7 @@ export const projects = [
   },
 
   {
-    id: "project-8",
+    id: "project-9",
     title: "Drum Kit",
     github: "https://github.com/vidushish/Drum-Kit",
     content:
@@ -325,7 +335,7 @@ export const projects = [
   },
 
   {
-    id: "project-9",
+    id: "project-10",
     title: "Dice Game",
     github: "https://github.com/vidushish/Dice-Game",
     content:
@@ -338,7 +348,7 @@ export const projects = [
   },
 
   {
-    id: "project-10",
+    id: "project-11",
     title: "Amazon Clone",
     github: "https://github.com/vidushish/Project-1-Amazon-Layout-on-html-css",
     content:
@@ -350,7 +360,7 @@ export const projects = [
   },
 
   {
-    id: "project-11",
+    id: "project-12",
     title: "To-Do List ",
     github: "https://github.com/vidushish/To-Do-List",
     content:
