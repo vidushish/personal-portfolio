@@ -6,6 +6,10 @@
 </p>
 
 <p align="center">
+  🌐 <a href="https://vidushi-sharma-portfolio.vercel.app/" target="_blank"><strong>Live Portfolio</strong></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/vidushish" target="_blank">🐙 GitHub</a> |
   <a href="https://www.linkedin.com/in/vidushi-sharma12/" target="_blank">💼 LinkedIn</a>
 </p>
@@ -17,6 +21,9 @@
 This portfolio is designed to present my **technical skills, academic background,
 projects, achievements, and leadership roles** in a clean and engaging way.
 It focuses on smooth animations, responsive layouts, and modern UI/UX practices.
+
+The website is **automatically deployed using GitHub + Vercel**, ensuring that
+any updates pushed to the main branch are instantly reflected live.
 
 ---
 
@@ -71,6 +78,26 @@ It focuses on smooth animations, responsive layouts, and modern UI/UX practices.
 - **Smooth animations** using Framer Motion
 - **Clean UI** with Tailwind utility classes
 - **Reusable components** and organized folder structure
-- Easy to **customize content** via constants file
+- Easy to **customize content** via a centralized constants file
 
 ---
+
+## 🚀 Deployment
+
+The portfolio is deployed on **Vercel** and connected to GitHub for continuous deployment.
+
+- **Live URL:** https://vidushi-sharma-portfolio.vercel.app/
+- **Deployment:** Automatic on every push to `main`
+
+---
+
+## 📬 Contact
+
+If you'd like to connect or collaborate:
+
+- **LinkedIn:** https://www.linkedin.com/in/vidushi-sharma12/
+- **GitHub:** https://github.com/vidushish
+
+---
+
+⭐ If you like this project, feel free to star the repository!
