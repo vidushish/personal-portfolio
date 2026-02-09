@@ -99,8 +99,8 @@ export const educationList = [
 	{
 		id: "education-1",
 		icon: kiet,
-		title: "KIET Group of Institutions (AKTU)",
-		degree: "Bachelor of Technology",
+		title: "Bachelor of Technology",
+		institution: "KIET Group of Institutions (AKTU)",
 		duration: "2023 - 2027",
 		content1: "Computer Science",
 		content2: "CGPA: 8.6",
@@ -109,8 +109,8 @@ export const educationList = [
 	{
 		id: "education-2",
 		icon: bvm,
-		title: "Bhai Parmanand Vidya Mandir School (CBSE)",
-		degree: "Intermediate (Class XII)",
+		title: "Intermediate (Class XII)",
+		institution: "Bhai Parmanand Vidya Mandir School (CBSE)",
 		duration: "2022 - 2023",
 		content1: "Percentage: 91.4%",
 		content2: "",
@@ -119,12 +119,12 @@ export const educationList = [
 	{
 		id: "education-3",
 		icon: amity,
-		title: "Amity International School (CBSE)",
-		degree: "High School (Class X)",
+		title: "High School (Class X)",
+		institution: "Amity International School (CBSE)",
 		duration: "2020 - 2021",
 		content1: "Percentage: 82%",
 		content2: "",
-		location: "Vasundhara Sec-1, Ghaziabad",
+		location: "Ghaziabad, Uttar Pradesh",
 	},
 ];
 
