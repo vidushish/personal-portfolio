@@ -35,7 +35,7 @@ import {
 } from "react-icons/si";
 
 export const resumeLink =
-	"https://acrobat.adobe.com/id/urn:aaid:sc:ap:c0b0253f-4624-4a92-9f90-b651e854af2b";
+	"https://acrobat.adobe.com/id/urn:aaid:sc:AP:cb1bdbe7-04fb-45de-b7c6-207dde177821";
 
 export const callToAction = "https://www.linkedin.com/in/vidushi-sharma12/";
 
