@@ -32,10 +32,13 @@ import {
   SiCodechef,
   SiCodeforces,
   SiLinkedin,
+  SiPython,
+  SiNumpy,
+  SiScikitlearn
 } from "react-icons/si";
 
 export const resumeLink =
-	"https://acrobat.adobe.com/id/urn:aaid:sc:AP:cb1bdbe7-04fb-45de-b7c6-207dde177821";
+	"https://acrobat.adobe.com/id/urn:aaid:sc:AP:fbcc4443-3fac-4442-9527-e9a95db3aa8e";
 
 export const callToAction = "https://www.linkedin.com/in/vidushi-sharma12/";
 
@@ -172,57 +175,62 @@ export const achievements = [
 	},
 ];
 
-// Add your software developments skills here for example - programming languages, frameworks etc.
 export const skills = [
-	{
-		title: "Programming Languages",
-		items: [
-			{ id: "pl-1", name: "C++", icon: SiCplusplus },
-			{ id: "pl-2", name: "JavaScript", icon: SiJavascript },
-			{ id: "pl-3", name: "SQL", icon: SiMysql },
-		],
-	},
-	{
-		title: "Frontend Technologies",
-		items: [
-			{ id: "fe-1", name: "HTML", icon: SiHtml5 },
-			{ id: "fe-2", name: "CSS", icon: SiCss3 },
-			{ id: "fe-3", name: "Bootstrap", icon: SiBootstrap },
-			{ id: "fe-4", name: "Tailwind CSS", icon: SiTailwindcss },
-			{ id: "fe-5", name: "React.js", icon: SiReact },
-		],
-	},
-	{
-		title: "Backend Technologies",
-		items: [
-			{ id: "be-1", name: "Node.js", icon: SiNodedotjs },
-			{ id: "be-2", name: "Express.js", icon: SiExpress },
-			{ id: "be-3", name: "REST APIs", icon: SiNodedotjs },
-		],
-	},
-	{
-		title: "Developer Tools",
-		items: [
-			{ id: "dt-1", name: "Git", icon: SiGit },
-			{ id: "dt-2", name: "GitHub", icon: SiGithub },
-		],
-	},
+  {
+    title: "Languages",
+    items: [
+      { id: "pl-1", name: "C++", icon: SiCplusplus },
+      { id: "pl-2", name: "JavaScript", icon: SiJavascript },
+      { id: "pl-3", name: "SQL", icon: SiMysql },
+    ],
+  },
+  {
+    title: "ML Skills",
+    items: [
+      { id: "ml-1", name: "NumPy", icon: SiNumpy },
+      { id: "ml-2", name: "scikit-learn", icon: SiPython }, // fallback if icon not available
+    ],
+  },
+  {
+    title: "Frameworks",
+    items: [
+      { id: "fw-1", name: "React.js", icon: SiReact },
+      { id: "fw-2", name: "Node.js", icon: SiNodedotjs },
+      { id: "fw-3", name: "Express.js", icon: SiExpress },
+    ],
+  },
+  {
+    title: "Web Technologies",
+    items: [
+      { id: "web-1", name: "HTML", icon: SiHtml5 },
+      { id: "web-2", name: "CSS", icon: SiCss3 },
+      { id: "web-3", name: "Bootstrap", icon: SiBootstrap },
+      { id: "web-4", name: "Tailwind CSS", icon: SiTailwindcss },
+    ],
+  },
+  {
+    title: "Databases",
+    items: [
+      { id: "db-1", name: "MongoDB", icon: SiMongodb },
+      { id: "db-2", name: "MySQL", icon: SiMysql },
+    ],
+  },
 ];
 
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
   {
-    id: "project-1",
-    title: "DSA Visualiser",
-    github: "https://github.com/vidushish/DSA_Visualizer",
-    content:
-      "A desktop-based algorithm visualization tool built using C++ and Qt. It visually demonstrates sorting algorithms, backtracking problems, and tree data structures through step-by-step animations to simplify core DSA concepts.",
-    stack: [
-      { id: "dsa-1", icon: SiCplusplus, name: "C++" },
-      { id: "dsa-2", icon: SiGit, name: "Qt Framework" },
-      { id: "dsa-3", icon: SiGit, name: "CMake" },
-    ],
-  },
+  id: "project-1",
+  title: "PCOS Prediction Model",
+  github: "https://github.com/vidushish/ml-projects/tree/main/pcos-prediction",
+  content:
+    "A machine learning model to predict Polycystic Ovary Syndrome (PCOS) using clinical and hormonal features. Implemented data preprocessing, train-test split, and Logistic Regression, achieving ~88.5% accuracy with evaluation using a confusion matrix.",
+  stack: [
+    { id: "pcos-1", icon: SiPython, name: "Python" },
+    { id: "pcos-2", icon: SiNumpy, name: "NumPy" },
+    { id: "pcos-3", icon: SiScikitlearn, name: "scikit-learn" },
+  ],
+},
 
   {
     id: "project-2",
